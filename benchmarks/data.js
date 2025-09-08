@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757354517756,
+  "lastUpdate": 1757354559951,
   "repoUrl": "https://github.com/Peponks9/ethrex",
   "entries": {
     "Benchmark": [
@@ -29,6 +29,36 @@ window.BENCHMARK_DATA = {
             "name": "Block import/Block import ERC20 transfers",
             "value": 166468647748,
             "range": "± 329815295",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52646071+Peponks9@users.noreply.github.com",
+            "name": "josé v",
+            "username": "Peponks9"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cfe2575146b74b2b0d21bd0624c38ec3cf01ed2",
+          "message": "Merge branch 'lambdaclass:main' into main",
+          "timestamp": "2025-09-08T11:18:52-06:00",
+          "tree_id": "7fc502c91a017e8a4eecc3b8395942dcc446275b",
+          "url": "https://github.com/Peponks9/ethrex/commit/8cfe2575146b74b2b0d21bd0624c38ec3cf01ed2"
+        },
+        "date": 1757354557753,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Block import/Block import ERC20 transfers",
+            "value": 165806229741,
+            "range": "± 706101893",
             "unit": "ns/iter"
           }
         ]
